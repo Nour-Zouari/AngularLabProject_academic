@@ -1,0 +1,48 @@
+{
+  "members": [
+    {
+      "cin": "0660524899",
+      "name": "nour",
+      "type": "Etudiant",
+      "cv": "nour_zouari.pdf",
+      "date": "2025-11-12T07:59:25.941Z",
+      "id": "8f29"
+    },
+    {
+      "id": "87f5",
+      "cin": null,
+      "name": null,
+      "type": null,
+      "cv": null,
+      "date": "2025-12-31T10:18:09.612Z"
+    },
+    {
+      "cin": null,
+      "name": null,
+      "type": "Etudiant",
+      "cv": null,
+      "date": "2025-12-31T10:18:34.614Z",
+      "id": "8275"
+    },
+    {
+      "cin": "b",
+      "name": null,
+      "type": "Enseignant Chercheur",
+      "cv": null,
+      "date": "2025-12-31T10:18:59.535Z",
+      "id": "232b"
+    }
+  ],
+  "evenements": [
+    {
+      "id": "56656556"
+    },
+    {
+      "titre": "event",
+      "date_debut": "2025-11-16T23:00:00.000Z",
+      "date_fin": "2025-11-18T23:00:00.000Z",
+      "lieu": "sfax",
+      "id": "7852"
+    }
+  ]
+}

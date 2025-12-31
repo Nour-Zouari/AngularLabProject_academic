@@ -1,0 +1,51 @@
+<mat-card class="example-card" appearance="outlined">
+    <mat-card-title>Members</mat-card-title>
+  <mat-card-content>
+    <p>
+      {{Nb_membres}}
+    </p>
+  </mat-card-content>
+</mat-card>
+<mat-card class="example-card" appearance="outlined">
+  <mat-card-title>Evenements</mat-card-title>
+  <mat-card-content>
+    <p>
+      {{Nb_Events}}
+    </p>
+  </mat-card-content>
+</mat-card>
+<mat-card class="example-card" appearance="outlined">
+  <mat-card-title>Publications</mat-card-title>
+  <mat-card-content>
+    <p>
+      {{Nb_Pub}}
+    </p>
+  </mat-card-content>
+</mat-card>
+<mat-card class="example-card" appearance="outlined">
+  <mat-card-title>Tools</mat-card-title>
+  <mat-card-content>
+    <p>
+      {{Nb_Tools}}
+    </p>
+  </mat-card-content>
+</mat-card>
+<div class="charts-container">
+  <div class="chart-wrapper">
+    <canvas baseChart
+            [type]="'line'"
+            [datasets]="chartDataLine"
+            [labels]="chartLabelsLine"
+            [options]="chartOptions">
+    </canvas>
+  </div>
+  <div class="chart-wrapper">
+    <canvas baseChart
+            [type]="'pie'"
+            [datasets]="chartDataPie"
+            [labels]="chartLabelsPie"
+            [options]="chartOptions">
+    </canvas>
+  </div>
+</div>
+
